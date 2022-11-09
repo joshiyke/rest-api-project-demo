@@ -1,0 +1,24 @@
+{
+  "name": "rest-api-project-demo",
+  "version": "1.0.0",
+  "description": "Rest API project done in partial fulfillment of the requirement for Fullstack with Nodejs Training at Zuri Cohort 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Ikechukwu Joshua Anyasi",
+  "license": "ISC",
+  "dependencies": {
+    "booking-flight-api": "file:",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.16",
+    "rest-api-project-demo": "file:",
+    "uuid": "^9.0.0"
+  }
+}

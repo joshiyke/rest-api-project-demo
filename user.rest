@@ -1,0 +1,29 @@
+@url = "http://localhost:3000/"
+
+GET http://localhost:3000/user HTTP/1.1
+
+###
+GET http://localhost:3000/user/b067d7a8-6e26-4160-91a6-07b052936431 HTTP/1.1
+
+###
+POST http://localhost:3000/user HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Rita",
+    "email": "rita@example.com",
+    "password": "password"
+}
+
+###
+PUT http://localhost:3000/user/e61fbd7b-5e2c-4899-870c-a987c599620c HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Amblessed",
+    "email": "amblessed@example.com",
+    "password": "passwordyh"
+}
+
+###
+DELETE http://localhost:3000/user/b4cc6bdb-b925-46d5-bf8b-c7ebd447c6e3 HTTP/1.1
